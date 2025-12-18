@@ -1,3 +1,5 @@
+//! Custom error types for the FYRST protocol.
+
 use anchor_lang::prelude::*;
 
 #[error_code]
