@@ -1,3 +1,8 @@
+/**
+ * Type definitions for the FYRST protocol SDK.
+ * Generated from the on-chain program IDL.
+ */
+
 import { PublicKey } from "@solana/web3.js";
 
 export interface EscrowVault {
