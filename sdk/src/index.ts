@@ -1,11 +1,3 @@
-/**
- * FYRST Protocol SDK
- *
- * TypeScript client for the FYRST on-chain program.
- * Supports escrow management, bonding curve trading,
- * and refund claim operations.
- */
-
 export { FyrstClient } from "./client";
 export type {
   EscrowVault,
