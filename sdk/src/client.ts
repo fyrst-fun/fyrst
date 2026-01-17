@@ -1,3 +1,8 @@
+/**
+ * FYRST Protocol client.
+ * High-level interface for interacting with the on-chain program.
+ */
+
 import { Program, AnchorProvider, BN, Idl } from "@coral-xyz/anchor";
 import {
   Connection,
@@ -6,13 +11,7 @@ import {
   Keypair,
   TransactionSignature,
 } from "@solana/web3.js";
-import {
-  PROGRAM_ID,
-  ESCROW_SEED,
-  CURVE_SEED,
-  RECORD_SEED,
-  DEFAULT_RPC,
-} from "./constants";
+import { PROGRAM_ID, ESCROW_SEED, CURVE_SEED, RECORD_SEED, DEFAULT_RPC } from "./constants";
 
 /**
  * FyrstClient provides methods to interact with the FYRST Protocol on-chain program.
